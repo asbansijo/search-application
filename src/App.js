@@ -1,38 +1,3 @@
-// import React, { useState, useEffect } from 'react';
-// import axios from 'axios';
-// import './App.css';
-
-// function App() {
-
-//   const [apiData, setapiData] = useState('');
-//   const [error, setError] = useState(null);
-//   useEffect(() => {
-  
-//     const fetchData = async () => {
-        
-//       try {
-//         const response = await axios.get('https://jsonplaceholder.typicode.com/todos');
-//         setapiData(response.data);
-//         // console.log(response.data);
-//         setError(null);
-//       } catch (error) {
-//         console.error('Error fetching data', error);
-//         setError('Failed to fetch data. Please try again later.');
-//       }
-//     };
-  
-//     fetchData();
-//   }, []);
-
-//   return (
-//     <div className="App">
-
-//     </div>
-//   );
-// }
-
-// export default App;
-
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import './App.css';
